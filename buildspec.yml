@@ -15,11 +15,11 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mv target/*.jar authorization-app.jar
+      - mv target/*.jar auth-ms.jar
       - dir
 artifacts:
   files:
-    - authorization-app.jar
+    - auth-ms.jar
 
 
 
